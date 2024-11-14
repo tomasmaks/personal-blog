@@ -1,5 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
+<<<<<<< HEAD
   title: 'Next.js Starter Blog',
   author: 'Tails Azimuth',
   headerTitle: 'TailwindBlog',
@@ -22,6 +23,23 @@ const siteMetadata = {
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
   bluesky: 'https://bsky.app/',
+=======
+  title: 'Tomas Maksimavicius Blog',
+  author: 'Tomas Maksimavičius',
+  headerTitle: 'Tomasmaks',
+  description: 'Just a friendly person obsessed about startups.',
+  language: 'en-us',
+  theme: 'dark', // system, dark or light
+  siteUrl: 'https://tomasmaks.com/',
+  siteRepo: 'https://github.com/tomasmaks/tomasmaks.com-personal-blog',
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
+  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
+  email: 'tomasmaks@gmail.com',
+  github: 'https://github.com/tomasmaks',
+  x: 'https://twitter.com/tom_maks',
+  facebook: 'https://www.facebook.com/tomas.maksimavicius',
+  linkedin: 'https://www.linkedin.com/in/tomas-maksimavi%C4%8Dius-7a70a6b5/',
+>>>>>>> master
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
@@ -98,6 +116,24 @@ const siteMetadata = {
     //   indexName: 'docsearch',
     // },
   },
+<<<<<<< HEAD
+=======
+  welcome: 'Hi, I’m Tomas Maksimavičius. Tech Founder, All In On Startups',
+  myTitle: 'I’m Tomas Maksimavičius - Tech Founder and Full-Stack Engineer.',
+  avatar: '/static/images/profile.png',
+  fullName: 'Tomas Maksimavičius',
+  shortDescription: [
+    'I am a tech generalist',
+    '<b>In 2015</b> I graduated from university as a Manufacturing engineer.',
+    '<b>Until 2016</b> worked in manufacturing company as project manager.',
+    '<b>In 2016</b> I quit my job to learn programming.',
+    'The same year I joined a small startup as an Android developer.',
+    'In 2018 I joined another startup.',
+    'In 2020 I started learning Web Development on a side.',
+    'In 2022 I started learning about businesses and startups.',
+    'In 2025 it is a time to launch my own startup.'
+  ]
+>>>>>>> master
 }
 
 module.exports = siteMetadata
