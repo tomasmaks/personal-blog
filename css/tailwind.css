@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.task-list-item::before {
+  @apply hidden;
+}
+
+.task-list-item {
+  @apply list-none;
+}
+
+.footnotes {
+  @apply mt-12 border-t border-gray-200 pt-8 dark:border-gray-700;
+}
+
+.data-footnote-backref {
+  @apply no-underline;
+}
+
+.csl-entry {
+  @apply my-5;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition:
+    background-color 600000s 0s,
+    color 600000s 0s;
+}
+
+.katex-display {
+  overflow: auto hidden;
+}
+
+.content-header-link {
+  opacity: 0;
+  margin-left: -24px;
+  padding-right: 4px;
+}
+
+.content-header:hover .content-header-link,
+.content-header-link:hover {
+  opacity: 1;
+}
+
+.linkicon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* START: CSS popular tags */
+.popular-tags .javascript {
+  @apply bg-amber-400;
+}
+
+.popular-tags .typescript {
+  @apply bg-blue-500;
+}
+
+.popular-tags .reactJS {
+  @apply bg-gray-900;
+}
+
+.popular-tags .android {
+  @apply bg-green-500;
+}
+
+.popular-tags .ethereum {
+  @apply bg-gray-800;
+}
+
+.popular-tags .shopify {
+  @apply bg-green-600;
+}
+
+.popular-tags .wordpress {
+  @apply bg-blue-700;
+}
+
+.popular-tags .kotlin {
+  @apply bg-purple-600;
+}
+
+.popular-tags .vueJS {
+  @apply bg-teal-600;
+}
+
+.popular-tags .nextJS {
+  @apply bg-gray-900;
+}
+
+.popular-tags .nodeJS {
+  @apply bg-green-600;
+}
+
+.popular-tags .rubyOnRails {
+  @apply bg-red-500;
+}
+
+.popular-tags .tailwindCSS {
+  @apply bg-teal-600;
+}
+
+.popular-tags .bootstrap {
+  @apply bg-purple-800;
+}
+
+.popular-tags .firebase {
+  @apply bg-red-700;
+}
+
+.popular-tags .postgres {
+  @apply bg-blue-800;
+}
+
+.popular-tags .canva {
+  @apply bg-teal-600;
+}
+
+.popular-tags .photoshop {
+  @apply bg-blue-600;
+}
+
+.popular-tags .autocad {
+  @apply bg-pink-700;
+}
+
+.popular-tags .solidworks {
+  @apply bg-red-800;
+}
+
+.popular-tags .web {
+  @apply bg-purple-800;
+}
+
+.popular-tags .java {
+  @apply bg-indigo-800;
+}
+
+
+/* END: CSS popular tags */
