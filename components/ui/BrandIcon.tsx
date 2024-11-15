@@ -10,6 +10,7 @@ import Javascript from 'public/static/icons/javascript.svg';
 import Typescript from 'public/static/icons/typescript.svg';
 import Java from 'public/static/icons/java.svg';
 import Kotlin from 'public/static/icons/kotlin.svg';
+import Ruby from 'public/static/icons/ruby.svg';
 
 // Frameworks
 import ReactJS from 'public/static/icons/react.svg';
@@ -42,6 +43,7 @@ export const BrandIconsMap = {
   Typescript,
   Java,
   Kotlin,
+  Ruby,
   ReactJS,
   VueJS,
   NextJS,

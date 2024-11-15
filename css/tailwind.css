@@ -148,5 +148,9 @@ input:-webkit-autofill:focus {
   @apply bg-indigo-800;
 }
 
+.popular-tags .ruby {
+  @apply bg-red-800;
+}
+
 
 /* END: CSS popular tags */

@@ -1,4 +1,4 @@
-import projectsData from '@/data/projectsData'
+import { workData, sideProjectData } from '@/data/projectsData'
 import Card from '@/components/Card'
 import { genPageMetadata } from 'app/seo'
 
@@ -13,19 +13,28 @@ export default function Projects() {
             Projects
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Showcase your projects with a hero image (16 x 9)
+            This is a list of startups and projects I've worked at, as well as startups I attempted to build as side projects.
           </p>
         </div>
+
         <div className="container py-12">
+          <h3 className="mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100">
+          Work
+          </h3>
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
+            {workData.map((data) => (
+              <Card key={data.title} data={data} />
+            ))}
+          </div>
+        </div>
+
+        <div className="container py-12">
+          <h3 className="mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100">
+          My Startups
+          </h3>
+          <div className="-m-4 flex flex-wrap">
+            {sideProjectData.map((data) => (
+              <Card key={data.title} data={data} />
             ))}
           </div>
         </div>

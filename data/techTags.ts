@@ -54,6 +54,11 @@ const languageTags: TechTag[] = [
     iconType: 'Kotlin',
     slug: 'kotlin',
     title: 'Kotlin',
+  },
+  {
+    iconType: 'Ruby',
+    slug: 'ruby',
+    title: 'Ruby',
   }
 ];
 

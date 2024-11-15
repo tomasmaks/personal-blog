@@ -29,7 +29,7 @@ const TypedBios = () => {
           My favorite startup categories are print-on-demand, e-commerce and marketplaces.
         </li>
         <li>
-          I spend ~10 hours/week reading about startups from the best entrepreneurs in Silicon Valley.
+          I spend 10++ hours/week reading about startups from the best entrepreneurs in Silicon Valley.
         </li>
         <li>
           As a 202cm person, I used to play basketball a lot.
