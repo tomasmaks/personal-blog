@@ -17,12 +17,12 @@ const TechTags: React.FC<TechTagsProps> = ({ groupName, tags }) => {
       <div className="popular-tags grid grid-cols-3 gap-4 xl:grid-cols-6">
         {map(tags, (techTag) => { // Now using the 'tags' prop
           const { slug, iconType, href, title } = techTag;
-          const className = `${slug} flex w-[156px] justify-center space-x-2 rounded-lg p-3`;
+          const className = `${slug} flex sm:w-[156px] md:w-[156px] justify-center space-x-2 rounded-lg p-3`;
 
           return (
             <div className={className} key={slug}>
               <BrandIcon type={iconType} className="h-6 w-6" />
-              <div className="my-auto text-white">{title}</div>
+              <div className="my-auto text-white truncate text-xxs sm:text-sm md:text-base">{title}</div>
             </div>
           );
         })}
